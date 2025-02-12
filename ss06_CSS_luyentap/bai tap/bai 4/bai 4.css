@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    color: rgb(49, 76, 183);
+}
+
+main {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+aside {
+    width: 25%;
+    padding: 20px;
+    background: #ebe8e8;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.posts {
+    width: 85%;
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+}
+
+article img {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
