@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 350px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 20px;
+    position: relative;
+    overflow: visible; 
+}
+
+.card-header {
+    position: relative;
+    background-color: #e60000;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.hot-badge {
+    position: absolute;
+    top: -20px;
+    right: -25px;
+    width: 120px; 
+    height: auto;
+}
+
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content p {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.card-content p span {
+    color: #ff9800;
+    font-weight: bold;
+}
+
+.divider {
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.button {
+    width: 80%;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button-primary {
+    background: linear-gradient(to right, #d32f2f, #ff1744);
+    color: white;
+}
+
+.button-secondary {
+    background: white;
+    color: #d32f2f;
+    border: 2px solid #d32f2f;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.icon {
+    margin-right: 5px;
+}

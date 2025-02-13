@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.accordion {
+    width: 920px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.accordion-header {
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #fff;
+    cursor: pointer;
+    border: none;
+    text-align: left;
+    width: 100%;
+}
+
+.accordion-header.active {
+    background: #e7f1ff;
+    color: #0d6efd;
+}
+
+.accordion-body {
+    padding: 25px;
+    background: #fff;
+    border-top: 1px solid #ddd;
+    font-size: 20px;
+}
+
+.accordion-body strong {
+    font-weight: bold;
+}
+
+.accordion-body code {
+    color: #d63384;
+    font-weight: bold;
+}
+.accordion-header ion-icon {
+    font-size: 25px;
+    color: #333;
+    margin-left: 700px;
+}
