@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.container {
+    background: white;
+    max-width:100%;
+    padding: 80px;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #555;
+    font-weight: 100;
+}
+
+p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.download {
+    background-color: #007bff;
+    color: white;
+}
+
+.download i {
+    margin-right: 5px;
+}
+
+.learn-more {
+    background-color: white;
+    border: 2px solid #ccc;
+    color: #555;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.social-icons {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.social-icons i {
+    margin: 0 10px;
+    cursor: pointer;
+}
