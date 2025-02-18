@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    padding: 20px;
+}
+  
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+  
+.recent-news {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 60%;
+}
+  
+.recent-news h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+  
+.news-layout {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.large-img {
+    width: 60%;
+    position: relative;
+}
+  
+.large-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+  
+.large-img-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+  
+.large-img-text h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+  
+.large-img-text p {
+    font-size: 14px;
+}
+  
+.small-imgs {
+    width: 35%;
+}
+  
+.small-img {
+    margin-bottom: 15px;
+    display: flex;
+}
+  
+.small-img img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+  
+.small-img-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+.small-img-text h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+  
+.small-img-text p {
+    font-size: 12px;
+    color: #777;
+}
+  
+.more-btn {
+    background-color: #556155;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.clubs-ranking {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 35%;
+}
+  
+.clubs-ranking h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+  
+.clubs-ranking p {
+    font-size: 16px;
+    color: #555;
+}
+.clubs-ranking img {
+    width: 500px;
+    height: 400px;
+}
+
+  

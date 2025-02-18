@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+}
+  
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+  
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.menu {
+    display: flex;
+    gap: 20px;
+}
+  
+.menu span {
+    font-size: 16px;
+    cursor: pointer;
+}
+  
+.menu span:hover {
+    text-decoration: underline;
+}
+  
+.logo img {
+    height: 40px;
+    width: auto;
+}
+  
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+.main-image {
+    width: 60%;
+    position: relative;
+}
+  
+.main-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+  
+.main-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+  
+.main-text h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+  
+.main-text p {
+    font-size: 16px;
+}
+  
+.top-stories {
+    width: 35%;
+    background-color: #fff;
+}
+  
+.top-stories h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    background-color: #FFD700; 
+    display: inline-block; 
+    padding: 5px 15px; 
+    border-radius: 5px;
+}
+  
+.top-stories ul {
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+  
+.top-stories ul li {
+    margin-bottom: 15px;
+}
+  
+.top-stories ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+  
+.top-stories ul li a:hover {
+    color: #007bff;
+}
+  
+.top-stories {
+    min-height: 300px;  
+}
+  
+.quick-bites {
+    width: 35%;
+    background-color: #fff;
+}
+  
+.quick-bites h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    background-color: #FFD700; 
+    display: inline-block; 
+    padding: 5px 15px; 
+    border-radius: 5px;
+}
+  
+.quick-bites ul {
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+  
+.quick-bites ul li {
+    margin-bottom: 15px;
+}
+  
+.quick-bites ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+  
+.quick-bites ul li a:hover {
+    color: #007bff;
+}
+  
+.quick-bites {
+    min-height: 520px; 
+}
+  
+.sign-up {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+  
+.sign-up:hover {
+    background-color: #0056b3; 
+}
+  
