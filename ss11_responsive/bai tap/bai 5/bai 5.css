@@ -20,6 +20,11 @@ header {
     font-weight: 600;
     flex: 1;
 }
+.icon{
+    display: none;
+    font-size: 20px;
+    background-color: #8f4f4f;
+}
 
 .nav {
     font-size: 28px;
@@ -87,6 +92,16 @@ header {
         display: none;
    }
    .nav{
-        margin-top: 50px;
+        margin-top: 150px;
+        width: 100vh;
+   }
+   .icon{
+        display: flex;
+        height: 50px;
+        width: 20%;
+        text-align: center; 
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
    }
 }
