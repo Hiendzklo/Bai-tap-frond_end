@@ -1,0 +1,83 @@
+/* Cài đặt chung */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+ 
+}
+
+/* Header */
+header {
+    width: 100%; /* Chiếm toàn bộ chiều rộng */
+    background-color: #c42a77;
+    color: white;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+/* Footer */
+footer {
+    width: 100%; /* Chiếm toàn bộ chiều rộng */
+    background-color: #ff66b2;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* Container */
+.container {
+    padding: 20px;
+}
+.row-1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Điều chỉnh khoảng cách giữa các ô */
+    margin-bottom: 20px;
+}
+.row-2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Điều chỉnh khoảng cách giữa các ô */
+    margin-bottom: 10px;
+}
+
+/* Cấu trúc cho từng item */
+.item1,.item2,.item3,.item4 {
+    background-color: #ff66b2;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    flex: 1; /* Các phần tử chiếm 1 không gian đồng đều */
+}
+.item5, .item6 {
+    background-color: #b23373;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    flex: 1; /* Các phần tử chiếm 1 không gian đồng đều */
+}
+
+
+/* Giao diện cho Tablet (768px - 1200px) */
+@media (max-width: 1199px) and (min-width: 768px) {
+    .item3,.item4 {
+      display: none;
+    }
+}
+
+/* Giao diện cho Mobile (<768px) */
+@media (max-width: 767px) {
+    .row-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .row-2{
+        display: flex;
+        flex-direction: column;
+    }
+}

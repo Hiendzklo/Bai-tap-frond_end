@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+
+
+
+.container {
+    padding: 20px;
+}
+
+.row-1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+    height: 10vh;
+}
+.row-2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+    height: 10vh;
+}
+
+.orange1{
+    flex: 1;
+    background-color: orange;
+}
+.orange2 {
+    flex: 1;
+    background-color: orange;
+}
+.yellow1 {
+    width: 100%;
+    background-color: greenyellow
+}
+.row-3{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    height: 15vh;
+}
+.blue1 {
+    background-color:blue ;
+    flex: 1;
+}
+.blue2 {
+    background-color:blue ;
+    flex: 1;
+}
+.blue3 {
+    background-color:blue ;
+    flex: 1;
+}
+.row-4{
+    display: flex;
+    gap: 20px;
+    height: 10vh;
+}
+.white1 {
+    background-color: grey;
+    flex: 1;
+}
+.white2 {
+    background-color: grey;
+    flex: 1;
+}
+.white3 {
+    background-color: grey;
+    flex: 1;
+}
+.white4 {
+    background-color: grey;
+    flex: 1;
+}
+
+
+@media (max-width: 1199px) and (min-width: 768px) {
+    .row-1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 20vh;
+    }
+    .row-2{
+        height: 30vh;
+    }
+    .row-3{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 20vh;
+    }
+    .row-4{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 20vh;
+    }
+}
+
+@media (max-width: 767px) {
+    .row-1{
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+    }
+    .yellow1{
+        display: flex;
+        flex-direction: column;
+        height: 10vh;
+    }
+    .row-3{
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+    }
+    .row-4{
+        display: flex;
+        flex-direction: column;
+        height: 30vh;
+    }
+    
+}
