@@ -1,0 +1,86 @@
+.navbar {
+    border-bottom: 2px solid #ddd;
+}
+.navbar-nav .nav-link {
+    color: #333;
+}
+.navbar-nav .nav-link:hover {
+    color: #007B5E;
+}
+.navbar-brand img {
+    max-width: 100px;
+}
+.navbar-nav {
+    justify-content: center; /* Căn giữa các mục menu */
+    margin-left: 400px !important;
+}
+.navbar-nav .nav-item {
+    margin: 0 15px;
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    color: #777;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.hero-icon {
+    font-size: 40px;
+    color: #f4c542; /* Màu vàng cho biểu tượng */
+    margin-top: 15px;
+}
+
+.hero-title span {
+    color: #f4c542; /* Màu vàng cho phần đặc biệt */
+}
+
+.search-bar {
+    width: 200%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid #ddd;
+    background-color: white;
+}
+
+.search-bar input {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 25px 0 0 25px;
+    font-size: 1rem;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #007B5E;
+    color: white;
+    border: none;
+    font-size: 1rem;
+}
+.arrow{
+    width: 250px;
+    position: absolute;
+    margin-left: -550px;
+    margin-top: -280px;
+}
+.stars{
+    width: 50px;
+    position: absolute;
+    margin-left: 240px;
+    margin-top: -260px;
+}
