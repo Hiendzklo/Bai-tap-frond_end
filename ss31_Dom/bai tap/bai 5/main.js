@@ -16,6 +16,7 @@ employees.forEach((employee, index) => {
   // Thêm cột STT
   const cell1 = document.createElement("td");
   cell1.textContent = index + 1;
+  ki;
   row.appendChild(cell1);
 
   // Thêm cột NAME

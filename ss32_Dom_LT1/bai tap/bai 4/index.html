@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #emailStatus {
+        font-size: 16px;
+      }
+
+      #emailStatus.valid {
+        color: green;
+      }
+
+      #emailStatus.invalid {
+        color: red;
+      }
+
+      input {
+        padding: 10px;
+        font-size: 16px;
+        margin: 10px 0;
+        width: 300px;
+      }
+
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <label for="emailInput">Email:</label>
+    <input type="text" id="emailInput" placeholder="Nhập email của bạn" />
+    <button id="checkBtn">check</button>
+    <div id="emailStatus"></div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f4f4f4;
+      }
+      .container {
+        text-align: center;
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .text-content {
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+      button {
+        padding: 10px 20px;
+        font-size: 18px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 0 10px;
+      }
+      button:hover {
+        background-color: #45a049;
+      }
+      .decrease {
+        background-color: #f44336;
+      }
+      .decrease:hover {
+        background-color: #e53935;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="text-content" id="textContent">
+        Chữ sẽ thay đổi kích thước khi bấm nút
+      </div>
+      <button id="increaseBtn">+</button>
+      <button id="decreaseBtn" class="decrease">-</button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
