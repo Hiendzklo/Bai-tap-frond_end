@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Danh sách nhân viên Rikkei</h1>
+      <form id="employee-form">
+        <input
+          type="text"
+          id="employee-name"
+          placeholder="Tên nhân viên"
+          required
+        />
+        <input type="text" id="employee-role" placeholder="Chức vụ" required />
+        <button type="submit">Thêm nhân viên</button>
+      </form>
+
+      <table id="employee-table">
+        <thead>
+          <tr>
+            <th>STT</th>
+            <th>Tên</th>
+            <th>Chức vụ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Dữ liệu sẽ được thêm vào đây -->
+        </tbody>
+      </table>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
